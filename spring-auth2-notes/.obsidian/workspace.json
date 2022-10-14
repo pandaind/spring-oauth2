@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2c79312d1eb87670",
+        "id": "8e8ae83519723b27",
         "type": "tabs",
         "children": [
           {
-            "id": "7cc9f8efe9a4f21a",
+            "id": "13599f16d923d437",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -131,8 +131,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "dcac6d5fae9b0fcf",
+  "active": "13599f16d923d437",
   "lastOpenFiles": [
-    "OAuth 2.0.md"
+    "OAuth 2.0.md",
+    "Abstract Flow.png"
   ]
 }

@@ -17,3 +17,10 @@ It uses Access Tokens.
 
 [OAuth 2.0 Playground](https://www.oauth.com/playground/)
 
+-   _Resource_: Any kind of information that can only be retrieved by authorized clients
+-   _Client_: an application that consumes a resource, usually through a REST API
+-   _Resource Server_: A service that is responsible for serving a resource to authorized clients
+-   _Resource Owner_: entity (human or application) that owns a resource and, ultimately, is responsible for granting access to it to a client
+-   _Token_: a piece of information got by a client and sent to a resource server as part of the request to authenticate it
+-   _Identity Provider (IdP)_: Validates user credentials and issues access tokens to clients.
+-   _Authentication Flow:_ Sequence of steps a client must go through to get a valid token.
