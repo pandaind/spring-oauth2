@@ -24,3 +24,11 @@ It uses Access Tokens.
 -   _Token_: a piece of information got by a client and sent to a resource server as part of the request to authenticate it
 -   _Identity Provider (IdP)_: Validates user credentials and issues access tokens to clients.
 -   _Authentication Flow:_ Sequence of steps a client must go through to get a valid token.
+
+
+Below mentioned are the five key OAuth grant types for a user acquiring (or requesting to acquiring) a token.
+-   **Authorization:** It permits direct login using the 3rd resource. There is no need to provide the username or other login credentials.
+-   **Implicit:** It won’t ask for any kind of code. Rather, the client app gets an access token soon after the user’s consent.
+-   **Resource owner credentials:** It involves verification of token validity by the resource server. If valid, the user data will respond to it according to the pre-defined scope.
+-   **Client credentials**: Useful in situations requiring to obtain a token for a scenario that falls outside the user’s context. Only the client uses it.
+-   **Refresh token:** It is useful when accessing as app needs a renewed token.
